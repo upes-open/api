@@ -76,12 +76,34 @@ WSGI_APPLICATION = 'openapi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
 DATABASES = {
+    # Add environment variable here
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+
+        'ENGINE': '',
+
+        'NAME': '',
+
+        'USER': '',
+
+        'PASSWORD': '',
+
+        'HOST': '',
+
+        'PORT': '',
+
     }
+
 }
+
 
 
 # Password validation
